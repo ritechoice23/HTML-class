@@ -3,61 +3,77 @@
 <html>
   <!--head start -->
   <head>
-    <title>My first Html</title>
+    <title>My Website</title>
     <link rel="icon" type="image/x-icon" href="/images/logo.png" />
   </head>
   <!-- head end -->
 
   <!-- body start -->
   <body>
-    <!-- welcome image -->
     <div style="text-align: center">
-      <img
-        src="/images/logo.png"
-        height="100px"
-        width="auto"
-        alt="RiteChoice Logo"
-      />
-
-      <img
-      src="/images/logo.png"
-      height="100px"
-      width="auto"
-      alt="RiteChoice Logo"
-    />
+      <!-- logo -->
+      <img src="/images/logo.png" width="150px" height="auto" alt="" />
+      <h2>My Website</h2>
+    
+      <nav>
+        <a href="/" style="margin-right: 5px">Home</a>
+        <a href="" style="margin-right: 5px">About Us</a>
+        <a href="/contact_us.html" style="margin-right: 5px">Contact</a>
+        <a href="" style="margin-right: 5px">Sign Up</a>
+      </nav>
     </div>
 
-    <div
-      id="nav"
-      style="
-        margin: 2px;
-        padding: 5px;
-        background-color: pink;
-        color: white;
-        font-weight: bolder;
-        text-align: center;
-        text-decoration: none;
-      "
-    >
-      <a href="/">Home</a> |
-      <a href="./contact_us.html">Contact Us</a>
-    </div>
-    <!-- This is a section to show our website content -->
-    <div style="background-color: blue; padding: 5px">
-      <h1 style="color: red">HEADING 1</h1>
-      <h2 style="color: white">HEADING 2</h2>
-      <h3>HEADING 3</h3>
-      <h4>HEADING 4</h4>
-      <h5>HEADING 5</h5>
-      <h6>HEADING 6</h6>
-    </div>
-    <!-- paragrahp element -->
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, beatae
-      impedit. Harum hic, corporis molestiae ab, optio nulla praesentium, esse
-      aliquam modi totam reiciendis sed aspernatur incidunt nobis magni eum.
-    </p>
-    <!-- div element: this is just to section your page -->
+    <!-- content start -->
+    <div style="max-width: 700px; margin-left: auto; margin-right: auto">
+      <h1 style="text-decoration: underline; color: blue">
+        Welcome to my page
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores fugit
+        incidunt amet quae nemo neque consectetur aliquam nobis placeat <br />
+        asperiores modi odio, tempora exercitationem mollitia rem sequi hic
+        soluta labore?
+      </p>
+
+      <!-- about us -->
+      <div
+        style="
+          padding: 50px;
+          background-color: black;
+          box-shadow: 5px;
+          margin: 10;
+          border-radius: 12px;
+        "
+      >
+        <h4 style="color: aqua;">About Me</h4>
+        <p style="color: antiquewhite;">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A culpa eum,
+          eveniet veniam perspiciatis accusamus quidem fuga asperiores officiis
+          architecto corporis unde cupiditate magni. Laborum consequuntur
+          officiis sequi nostrum similique?
+
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Aliquid vero eligendi dignissimos. Delectus animi illo, ab minus perspiciatis corporis aspernatur natus tenetur voluptates non, ut facere omnis totam vel rem!
+        </p>
+      </div><!-- about us end -->
+
+      <!-- footer start -->
+
+      <div style="
+      margin-top: 10px;
+      margin-bottom: 5px;
+      padding: 10px;
+      border: solid 1px gray;
+      border-radius: 12px;
+       ">
+
+       <span >Copywrite <a href="/">my Website</a></span>
+       <span>2022</span> 
+
+      </div>
+      
+    </div> <!-- content end -->
+   
   </body>
   <!-- body end -->
 </html>
