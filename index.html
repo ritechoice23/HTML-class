@@ -5,6 +5,29 @@
   <head>
     <title>My Website</title>
     <link rel="icon" type="image/x-icon" href="/images/logo.png" />
+    <style>
+      .bg-black{
+        background-color: black;
+      }
+      .card {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        padding: 10px;
+        border: solid 1px rebeccapurple;
+        border-radius: 12px;
+      }
+
+      .card-title {
+        font-size: large;
+        margin-bottom: 4px;
+        font-weight: bolder;
+      }
+
+      .footer {
+        color: blue;
+        font-weight: bolder;
+      }
+    </style>
   </head>
   <!-- head end -->
 
@@ -14,7 +37,7 @@
       <!-- logo -->
       <img src="/images/logo.png" width="150px" height="auto" alt="" />
       <h2>My Website</h2>
-    
+
       <nav>
         <a href="/" style="margin-right: 5px">Home</a>
         <a href="" style="margin-right: 5px">About Us</a>
@@ -36,44 +59,58 @@
       </p>
 
       <!-- about us -->
-      <div
-        style="
-          padding: 50px;
-          background-color: black;
-          box-shadow: 5px;
-          margin: 10;
-          border-radius: 12px;
-        "
-      >
-        <h4 style="color: aqua;">About Me</h4>
-        <p style="color: antiquewhite;">
+      <div class="card bg-black">
+        <h4 style="color: aqua">About Me</h4>
+        <p style="color: antiquewhite">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A culpa eum,
           eveniet veniam perspiciatis accusamus quidem fuga asperiores officiis
           architecto corporis unde cupiditate magni. Laborum consequuntur
-          officiis sequi nostrum similique?
-
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Aliquid vero eligendi dignissimos. Delectus animi illo, ab minus perspiciatis corporis aspernatur natus tenetur voluptates non, ut facere omnis totam vel rem!
+          officiis sequi nostrum similique? Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Aliquid vero eligendi dignissimos.
+          Delectus animi illo, ab minus perspiciatis corporis aspernatur natus
+          tenetur voluptates non, ut facere omnis totam vel rem!
         </p>
-      </div><!-- about us end -->
+      </div>
+      <!-- about us end -->
+
+      <!-- text formating -->
+      <div class="card">
+        <h4>Text Formating</h4>
+        <b>bold</b> or <strong>strong</strong> <br />
+        <i>Italic text</i> <br />
+        <em>emphasy</em><br />
+        2<sup>2</sup> Text <sub>subscript text</sub><br />
+      </div>
+
+      <!-- list  -->
+
+      <div class="card">
+        <div class="card-title">List</div>
+        <div class="card">
+            <div class="card-title">Unordered List</div>
+            <ul>
+              <li>first item</li>
+              <li>second item</li>
+            </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-title">Ordered List</div>
+          <ol>
+            <li>first item</li>
+            <li>second item</li>
+          </ol>
+      </div>
+      </div>
 
       <!-- footer start -->
 
-      <div style="
-      margin-top: 10px;
-      margin-bottom: 5px;
-      padding: 10px;
-      border: solid 1px gray;
-      border-radius: 12px;
-       ">
-
-       <span >Copywrite <a href="/">my Website</a></span>
-       <span>2022</span> 
-
+      <div class="card footer">
+        <span>Copywrite <a href="/">my Website</a></span>
+        <span>2022</span>
       </div>
-      
-    </div> <!-- content end -->
-   
+    </div>
+    <!-- content end -->
   </body>
   <!-- body end -->
 </html>
