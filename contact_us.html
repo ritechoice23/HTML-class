@@ -19,9 +19,39 @@
     <a href="/" style="margin-right: 5px">Home</a>
     <a href="" style="margin-right: 5px">About Us</a>
     <a href="/contact_us.html" style="margin-right: 5px">Contact</a>
-    <a href="" style="margin-right: 5px">Sign Up</a>
+    <a href="/sign_up.html" style="margin-right: 5px">Sign Up</a>
   </nav>
 </div>
-  
+
+<div  class="card">
+ <div class="card-title">Contact Us</div>
+
+ <div>
+  <form action="" method="get">
+    <label for="email">Email</label>
+   <input type="email" name="email">
+
+   <label for="phone">Phone Number</label>
+   <input type="number" name="phone">
+
+   <label for="gender">gender</label>
+   <select class="select" name="gender">
+     <option value="male">Male</option>
+     <option value="female">Female</option>
+   </select>
+
+   <div style="display: flex; margin: 3px;  padding: 3px;">
+    <input class="select" type="checkbox" name="accept" value="Accept">
+    <label for="">Accept</label>
+   </div>
+
+
+   <label for="message">Message</label>
+   <textarea name="message" cols="30" rows="10"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+ </div>
+
+</div>
 </body>
 </html>
